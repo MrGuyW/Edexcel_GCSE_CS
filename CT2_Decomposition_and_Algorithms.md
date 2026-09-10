@@ -51,6 +51,31 @@ _Problem: Create an algorithm that asks the user for the dimensions of a cylinde
 ### Display the result
 - Show the volume to the user
 
+## Algorithms
+
+**An algorithm is a sequence of instructions or steps that can be followed to solve a problem or complete a task.**
+
+An algorithm doesn't have to be written in a programming language:
+
+```
+Algorithm Calculate Cylinder Volume
+ 
+  Ask the user to enter the radius of the cylinder
+  Store the radius
+ 
+  Ask the user to enter the height of the cylinder
+  Store the height
+ 
+  Calculate the area of the base by multiplying pi by the radius squared
+ 
+  Calculate the volume by multiplying the base area by the height
+ 
+  Display the volume of the cylinder
+ 
+End Algorithm
+```
+This is an example of pseudocode. Pseudocode is a way of describing an algorithm using structured English that is easy for humans to read and is not tied to a specific programming language.
+
 ## Python task: Complete the python script to calculate the volume of a cylinder
 _The script should ask the user to enter the radius and the height and return the volume_
 
@@ -66,4 +91,48 @@ cyl_height = input("enter height of cylinder: ")
 # Multiply the base area by the height
 
 # Display the volume to the user
+```
+
+## Sequence
+
+**Sequence is the execution of instructions in the order they are written, one after another.**
+
+Sequence is important in programming, because it controls how the lines of code are executed and means the steps MUST be in the right order.
+
+### fix the following code to make it work:
+
+```python
+print(message)
+ 
+message = name + " scored " + str(score) + " points."
+ 
+score = 42
+ 
+name = "Jamie"
+```
+
+### More challenge
+
+```python
+final_message = student + " achieved " + grade
+ 
+grade = "Grade " + str(grade_number)
+ 
+average = total / 4
+ 
+grade_number = int(average / 10)
+ 
+student = "Taylor"
+ 
+print(final_message)
+ 
+total = test1 + test2 + test3 + test4
+ 
+test3 = 55
+ 
+test1 = 72
+ 
+test4 = 61
+ 
+test2 = 80
 ```
