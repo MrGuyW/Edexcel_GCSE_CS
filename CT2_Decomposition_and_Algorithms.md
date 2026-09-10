@@ -103,11 +103,11 @@ Sequence is important in programming, because it controls how the lines of code 
 
 ```python
 print(message)
- 
+
 message = name + " scored " + str(score) + " points."
- 
+
 score = 42
- 
+
 name = "Jamie"
 ```
 
@@ -115,24 +115,133 @@ name = "Jamie"
 
 ```python
 final_message = student + " achieved " + grade
- 
+
 grade = "Grade " + str(grade_number)
- 
+
 average = total / 4
- 
+
 grade_number = int(average / 10)
- 
+
 student = "Taylor"
- 
+
 print(final_message)
- 
+
 total = test1 + test2 + test3 + test4
- 
 test3 = 55
- 
 test1 = 72
- 
 test4 = 61
- 
 test2 = 80
+```
+
+# Understanding Python Error Messages
+ 
+When a Python program crashes, Python displays an **error message**. Error messages help programmers identify what went wrong and where the problem occurred.
+ 
+## Reading an Error Message
+ 
+A Python error message usually tells you:
+ 
+1. **The line number** where the error occurred.
+2. **The type of error**.
+3. A short description of the problem.
+ 
+Example:
+ 
+```text
+NameError: name 'score' is not defined
+```
+ 
+This means Python tried to use a variable called `score`, but it doesn't exist.
+ 
+## Common Errors
+ 
+### NameError
+ 
+Occurs when a variable has not been created.
+ 
+```python
+print(name)
+```
+ 
+Python cannot find a variable called `name`.
+ 
+---
+ 
+### SyntaxError
+ 
+Occurs when Python cannot understand the code.
+ 
+```python
+print("Hello"
+```
+ 
+A closing bracket is missing.
+ 
+---
+ 
+### TypeError
+ 
+Occurs when incompatible data types are used together.
+ 
+```python
+age = "15"
+print(age + 5)
+```
+ 
+Python cannot add a string and an integer.
+ 
+---
+ 
+### ZeroDivisionError
+ 
+Occurs when a program tries to divide by zero.
+ 
+```python
+result = 10 / 0
+```
+ 
+Division by zero is not allowed.
+ 
+---
+ 
+## Tips for Fixing Errors
+ 
+- Read the error message carefully.
+- Look at the line number mentioned.
+- Identify the error type.
+- Check variable names, spelling and punctuation.
+- Fix one error at a time.
+
+## Error messages and bug fixes
+
+For each of the following code blocks:
+
+1. List the line number of the error
+2. Identify the type of error
+3. Try to correct the error (fix the bug)
+
+
+```python
+duck_name = "Quackers"
+
+words_typed = 872
+
+message = duck + " typed " + str(words_typed) + " words today."
+
+print(message) 
+```
+
+```python
+word1 = "Correct"
+word2 = "Horse"
+word3 = "Battery"
+word4 = "Staple"
+
+password = word1 + word2 + word3 + word4
+
+length = len(password)
+
+message = "Your password is " + password + " and is " + length + " characters long."
+
+print(message)
 ```
