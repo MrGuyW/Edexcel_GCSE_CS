@@ -54,4 +54,16 @@ _Problem: Create an algorithm that asks the user for the dimensions of a cylinde
 ## Python task: Complete the python script to calculate the volume of a cylinder
 _The script should ask the user to enter the radius and the height and return the volume_
 
-[Raw Python File](https://raw.githubusercontent.com/MrGuyW/Edexcel_GCSE_CS/dc7b0a788c4d3b4cefb8b7dc5e4c8b533flume.py
+```python
+# Ask the user for the radius
+cyl_radius = input("enter radius of cylinder: ")
+
+# Ask the user for the height
+cyl_height = input("enter height of cylinder: ")
+
+# Calculate the area of the circular base (use 3.14 as pi)
+
+# Multiply the base area by the height
+
+# Display the volume to the user
+```
