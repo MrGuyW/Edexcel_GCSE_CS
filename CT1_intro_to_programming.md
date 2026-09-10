@@ -21,3 +21,6 @@ Computers are deterministic - They can only carry out tasks according to a speci
 
 <img width="2479" height="1321" alt="image" src="https://github.com/user-attachments/assets/fa5b0743-a2e3-4b6d-a90c-cb9560f14907" />
 
+
+
+
