@@ -1,4 +1,6 @@
-# Part One | Complete definitions for each of the following data types
+# Part One | General Data types
+_research and write brief definitions of the following data types and include an example of that data type.
+
 
 integer
 
