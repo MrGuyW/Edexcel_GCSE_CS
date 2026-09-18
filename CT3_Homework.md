@@ -1,6 +1,24 @@
 # Part One | Complete definitions for each of the following data types
 
+integer
 
+
+real
+
+
+Boolean
+
+
+char
+
+
+string
+
+
+array
+
+
+record
 
 # Part Two | Python Exercise: Variables and Data Types
 
